@@ -61,6 +61,7 @@ function App() {
             .catch(err => console.error(err));
     };
 
+    // Find nearest facilities based on user's current location
     const handleFindNearest = () => {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(
@@ -68,7 +69,7 @@ function App() {
                     const { latitude, longitude } = position.coords;
                     setUserLocation({ lat: latitude, lng: longitude });
 
-                    // Fetch nearest facilities
+                    // Fetch nearest facilities from API
                     fetch(`/api/facilities/nearest?lat=${latitude}&lng=${longitude}&limit=10`)
                         .then(res => res.json())
                         .then(data => {
