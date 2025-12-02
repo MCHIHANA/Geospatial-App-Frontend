@@ -9,6 +9,8 @@
 
 **GeoAccess** is a comprehensive web application designed to analyze and visualize spatial accessibility to essential public services such as hospitals and schools. It addresses the critical challenge of identifying service gaps and underserved communities through data-driven geospatial analysis.
 
+This platform empowers decision-makers with actionable insights to improve service delivery and promote equitable access across communities.
+
 ### Problem Statement
 Access to essential public services is uneven across communities, leading to significant disparities. Residents in remote or densely populated areas often experience longer travel times to reach hospitals or schools, reducing their ability to obtain timely healthcare or equitable educational opportunities. This project provides planners and policymakers with practical tools to:
 - Identify service deserts and accessibility gaps
