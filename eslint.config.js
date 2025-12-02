@@ -9,8 +9,10 @@ import reactRefresh from 'eslint-plugin-react-refresh'
 import { defineConfig, globalIgnores } from 'eslint/config'
 
 export default defineConfig([
+  // Ignore build output directory
   globalIgnores(['dist']),
   {
+    // Apply to all JavaScript and JSX files
     files: ['**/*.{js,jsx}'],
     extends: [
       js.configs.recommended,
