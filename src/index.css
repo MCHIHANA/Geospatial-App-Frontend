@@ -26,7 +26,7 @@
   --text-muted: #94a3b8;
   --text-inverse: #ffffff;
 
-  /* Spacing */
+  /* Spacing - Consistent spacing scale */
   --spacing-xs: 0.25rem;
   --spacing-sm: 0.5rem;
   --spacing-md: 1rem;
