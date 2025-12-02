@@ -1,0 +1,234 @@
+.disaster-areas {
+    padding: 30px;
+    background: #f8f9fa;
+    min-height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.disaster-header {
+    margin-bottom: 30px;
+}
+
+.disaster-header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1f2937;
+    margin: 0 0 8px 0;
+}
+
+.disaster-header p {
+    font-size: 16px;
+    color: #6b7280;
+    margin: 0;
+}
+
+.disaster-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.disaster-stat-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 2px solid transparent;
+}
+
+.disaster-stat-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.disaster-stat-card.active {
+    border-color: #3b82f6;
+    background: #eff6ff;
+}
+
+.disaster-stat-card h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1f2937;
+    margin: 0;
+}
+
+.disaster-stat-card p {
+    font-size: 13px;
+    color: #6b7280;
+    margin: 0;
+}
+
+.disaster-content {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    gap: 20px;
+    flex: 1;
+    min-height: 0;
+}
+
+.disaster-map-container {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    height: 100%;
+    min-height: 500px;
+}
+
+.disaster-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: auto;
+}
+
+.disaster-zones-list,
+.affected-facilities {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.disaster-zones-list h3,
+.affected-facilities h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f2937;
+    margin: 0 0 15px 0;
+}
+
+.zone-card {
+    padding: 15px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    transition: all 0.2s;
+}
+
+.zone-card:hover {
+    border-color: #3b82f6;
+    background: #f9fafb;
+}
+
+.zone-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.zone-header h4 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1f2937;
+    margin: 0;
+}
+
+.zone-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.zone-details p {
+    font-size: 13px;
+    color: #6b7280;
+    margin: 0;
+}
+
+.risk-badge {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.risk-high {
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+.risk-medium {
+    background: #fef3c7;
+    color: #d97706;
+}
+
+.risk-low {
+    background: #d1fae5;
+    color: #059669;
+}
+
+.disaster-popup h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1f2937;
+    margin: 0 0 10px 0;
+}
+
+.disaster-popup p {
+    font-size: 13px;
+    color: #4b5563;
+    margin: 5px 0;
+}
+
+.disaster-popup strong {
+    color: #1f2937;
+}
+
+.affected-facilities {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.facility-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.facility-item svg {
+    color: #f59e0b;
+    flex-shrink: 0;
+}
+
+.facility-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1f2937;
+    margin: 0 0 4px 0;
+}
+
+.facility-distance {
+    font-size: 12px;
+    color: #6b7280;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .disaster-content {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .disaster-map-container {
+        height: 500px;
+    }
+}

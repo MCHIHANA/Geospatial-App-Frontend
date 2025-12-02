@@ -246,3 +246,31 @@ input[type="range"]::-moz-range-thumb:hover {
 .spinner {
   animation: spin 1s linear infinite;
 }
+
+/* Route Container Fixes */
+.app-container > div:last-child {
+    width: 100%;
+    height: 100%;
+}
+
+/* Ensure Routes fill container */
+.app-container > div:last-child > * {
+    width: 100%;
+    height: 100%;
+}
+
+/* Admin Dashboard specific fixes */
+.admin-dashboard * {
+    box-sizing: border-box;
+}
+
+/* Disaster Areas specific fixes */
+.disaster-areas * {
+    box-sizing: border-box;
+}
+
+/* Leaflet map fix for disaster areas */
+.disaster-map-container .leaflet-container {
+    height: 100% !important;
+    width: 100% !important;
+}
