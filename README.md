@@ -71,13 +71,13 @@ npm run dev
 
 ## 🏗️ Technology Stack
 
-### Backend
+### Backend Technologies
 - **NestJS** - Progressive Node.js framework
 - **TypeORM** - ORM with SQLite database
 - **ngraph** - Graph-based routing engine
 - **Turf.js** - Geospatial analysis library
 
-### Frontend
+### Frontend Technologies
 - **React 19** - UI framework
 - **Leaflet** - Interactive mapping library
 - **React-Leaflet** - React components for Leaflet
