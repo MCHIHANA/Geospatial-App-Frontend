@@ -187,13 +187,18 @@ The SQLite database (306 MB) contains pre-loaded road network and facility data.
 
 ## 🔮 Future Enhancements
 
+### Visualization Improvements
 - [ ] Population density heatmaps
+- [ ] Mobile-responsive design
+
+### Analysis Features
 - [ ] Multi-modal transportation (walking, cycling, transit)
 - [ ] Accessibility scoring algorithm
-- [ ] Export analysis results (PDF, CSV)
 - [ ] Real-time traffic integration
 - [ ] Service demand vs. supply analysis
-- [ ] Mobile-responsive design
+
+### Export & Collaboration
+- [ ] Export analysis results (PDF, CSV)
 - [ ] User authentication and saved analyses
 
 ## 📄 License
