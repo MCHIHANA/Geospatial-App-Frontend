@@ -156,6 +156,7 @@ To analyze accessibility from a specific location:
 ## 🛠️ Development
 
 ### Building for Production
+To create optimized production builds:
 ```bash
 # Build frontend
 npm run build
