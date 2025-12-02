@@ -80,6 +80,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Button Base Styles */
 button {
   cursor: pointer;
   font-family: inherit;
