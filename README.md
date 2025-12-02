@@ -212,7 +212,7 @@ This project is licensed under the UNLICENSED license.
 
 ## 🤝 Contributing
 
-This is an academic/research project. For questions or contributions, please review the code documentation and setup guides.
+This is an academic/research project developed for geospatial accessibility analysis. For questions or contributions, please review the code documentation and setup guides.
 
 ## 📧 Support
 
