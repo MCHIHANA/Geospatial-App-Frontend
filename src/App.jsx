@@ -41,6 +41,7 @@ function App() {
         setSidebarOpen(!sidebarOpen);
     };
 
+    // Handle route calculation results from routing panel
     const handleRouteCalculate = (result, origin, destination) => {
         setRouteData({ result, origin, destination });
     };
