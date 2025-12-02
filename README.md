@@ -28,6 +28,7 @@ Access to essential public services is uneven across communities, leading to sig
 ## 🚀 Quick Start
 
 ### Prerequisites
+Before you begin, ensure you have the following installed:
 - Node.js v16 or higher
 - npm (comes with Node.js)
 
