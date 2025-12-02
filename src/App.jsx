@@ -13,14 +13,19 @@ import { MapPin } from 'lucide-react';
  * Manages the overall application state and layout
  */
 function App() {
+    // UI State
     const [sidebarOpen, setSidebarOpen] = useState(true);
+    const [showRoutingPanel, setShowRoutingPanel] = useState(false);
+    const [showDistrictPanel, setShowDistrictPanel] = useState(false);
+    
+    // Layer Visibility State
     const [showHospitals, setShowHospitals] = useState(true);
     const [showSchools, setShowSchools] = useState(false);
     const [showPopulation, setShowPopulation] = useState(false);
     const [showIsochrone, setShowIsochrone] = useState(false);
     const [isochroneTime, setIsochroneTime] = useState(15);
-    const [showRoutingPanel, setShowRoutingPanel] = useState(false);
-    const [showDistrictPanel, setShowDistrictPanel] = useState(false);
+    
+    // Application Data State
     const [routeData, setRouteData] = useState(null);
     const [districtData, setDistrictData] = useState(null);
     const [userLocation, setUserLocation] = useState(null);
