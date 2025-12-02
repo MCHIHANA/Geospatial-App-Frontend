@@ -64,12 +64,14 @@
   }
 }
 
+/* Global Reset */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* Base Body Styles */
 body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   background-color: var(--bg-body);
