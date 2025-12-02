@@ -46,6 +46,7 @@ function App() {
         setRouteData({ result, origin, destination });
     };
 
+    // Handle district selection and fetch associated facilities
     const handleDistrictSelect = (district) => {
         // Fetch full district geometry details and facilities
         fetch(`/api/districts/facilities?name=${district.shapeName}`)
