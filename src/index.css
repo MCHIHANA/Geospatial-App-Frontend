@@ -49,7 +49,7 @@
   --transition-normal: 300ms ease;
 }
 
-/* Dark Mode Support (System Preference) */
+/* Dark Mode Support - Automatic theme switching based on system preference */
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-body: #0f172a;
