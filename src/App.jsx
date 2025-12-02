@@ -31,6 +31,7 @@ function App() {
     const [userLocation, setUserLocation] = useState(null);
     const [nearestFacilities, setNearestFacilities] = useState(null);
 
+    // Event Handlers
     const toggleSidebar = () => {
         setSidebarOpen(!sidebarOpen);
     };
