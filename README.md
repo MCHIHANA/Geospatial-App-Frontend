@@ -63,6 +63,7 @@ npm run dev
 ```
 
 ### Access Points
+Once running, you can access:
 - **Frontend**: http://localhost:5173
 - **Backend API**: http://localhost:4000
 - **Health Check**: http://localhost:4000/health
