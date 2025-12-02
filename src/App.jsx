@@ -76,15 +76,21 @@ function App() {
     };
 
     return (
-        <div className="app-container" style={{
-            display: 'flex',
-            flexDirection: 'column',
-            height: '100vh',
-            width: '100vw',
-            overflow: 'hidden',
-            backgroundColor: 'var(--bg-body)'
-        }}>
-            <Header toggleSidebar={toggleSidebar} onDistrictSelect={handleDistrictSelect} />
+        <div 
+            className="app-container" 
+            style={{
+                display: 'flex',
+                flexDirection: 'column',
+                height: '100vh',
+                width: '100vw',
+                overflow: 'hidden',
+                backgroundColor: 'var(--bg-body)'
+            }}
+        >
+            <Header 
+                toggleSidebar={toggleSidebar} 
+                onDistrictSelect={handleDistrictSelect} 
+            />
 
             <div style={{
                 display: 'flex',
