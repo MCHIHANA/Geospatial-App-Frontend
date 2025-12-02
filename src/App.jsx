@@ -1,10 +1,19 @@
+// React core imports
 import { useState } from 'react';
+
+// Layout components
 import Header from './components/Layout/Header';
 import Sidebar from './components/Layout/Sidebar';
+
+// Map components
 import MapView from './components/Map/MapView';
+import RoutingPanel from './components/Map/RoutingPanel';
+
+// Dashboard components
 import StatsPanel from './components/Dashboard/StatsPanel';
 import DistrictPanel from './components/Dashboard/DistrictPanel';
-import RoutingPanel from './components/Map/RoutingPanel';
+
+// Styles and icons
 import './index.css';
 import { MapPin } from 'lucide-react';
 
