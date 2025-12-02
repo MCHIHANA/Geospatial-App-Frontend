@@ -18,9 +18,12 @@ Access to essential public services is uneven across communities, leading to sig
 
 ## ✨ Key Features
 
+### Visualization & Analysis
 - 🗺️ **Interactive Map Visualization** - View facilities on an interactive Leaflet map
 - 🏥 **Multi-Layer Support** - Toggle hospitals, schools, and population data
 - ⏱️ **Isochrone Analysis** - Calculate and visualize travel-time catchment areas
+
+### Data & Insights
 - 📊 **Real-time Statistics** - View accessibility metrics and underserved areas
 - 🛣️ **Network-Based Routing** - Uses actual road networks for realistic travel times
 - 🎯 **Click-to-Analyze** - Interactive point selection for catchment analysis
