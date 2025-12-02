@@ -135,6 +135,7 @@ Returns API status and version information.
 ## 🎯 Usage Examples
 
 ### Viewing Facilities
+To view different facility types:
 1. Open the application
 2. Use sidebar to toggle layers:
    - 🏥 Hospitals (red markers)
