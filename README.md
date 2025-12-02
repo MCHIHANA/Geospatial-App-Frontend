@@ -216,7 +216,7 @@ This is an academic/research project. For questions or contributions, please rev
 
 ## 📧 Support
 
-For issues:
+If you encounter any issues, follow these steps:
 1. Check [QUICK_START.md](QUICK_START.md) troubleshooting section
 2. Review [SETUP_GUIDE.md](SETUP_GUIDE.md) for detailed documentation
 3. Check browser console (F12) for frontend errors
