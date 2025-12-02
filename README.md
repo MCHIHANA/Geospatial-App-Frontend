@@ -142,6 +142,7 @@ To view different facility types:
    - 🎓 Schools (green markers)
 
 ### Analyzing Catchment Areas
+To analyze accessibility from a specific location:
 1. Click "Catchment Areas" in sidebar
 2. Adjust travel time slider (5-60 minutes)
 3. Click any point on the map
