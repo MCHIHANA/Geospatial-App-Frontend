@@ -8,6 +8,10 @@ import RoutingPanel from './components/Map/RoutingPanel';
 import './index.css';
 import { MapPin } from 'lucide-react';
 
+/**
+ * Main App Component
+ * Manages the overall application state and layout
+ */
 function App() {
     const [sidebarOpen, setSidebarOpen] = useState(true);
     const [showHospitals, setShowHospitals] = useState(true);
