@@ -69,6 +69,7 @@ npm run dev
 
 ## 📖 Documentation
 
+For detailed information, please refer to:
 - **[QUICK_START.md](QUICK_START.md)** - Get started in 3 steps
 - **[SETUP_GUIDE.md](SETUP_GUIDE.md)** - Comprehensive setup and usage guide
 
