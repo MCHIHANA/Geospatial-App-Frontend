@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
     "preview": "vite preview",
+    "lint": "eslint .",
     "import-roads": "ts-node server/src/scripts/import-roads.ts",
     "create-topology": "ts-node server/src/scripts/create-topology.ts",
     "seed-data": "ts-node server/src/scripts/seed-data.ts",
